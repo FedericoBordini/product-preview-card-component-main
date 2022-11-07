@@ -1,0 +1,76 @@
+body {
+  background-color: hsl(30, 38%, 92%);
+  display: grid;
+}
+
+.card {
+  display: grid;
+  text-align: center;
+  border-radius: 10px;
+  margin: 15% 20% 10% 35%;
+  background-color: hsl(0, 0%, 100%);
+  width: 38%;
+  height: 42%;
+}
+
+img {
+  height: 25rem;
+  width: 25rem;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+h1 {
+  display: grid;
+  grid-template-columns: 200px;
+  grid-column-start: 3;
+  grid-column-end: 2;
+}
+
+.text {
+  display: grid;
+  font-size: 1.1rem;
+  margin: -250px 200px 200px 10px;
+  grid-column: 2;
+  grid-auto-columns: 230px;
+}
+
+.precio {
+  display: grid;
+  color: hsl(158, 36%, 37%);
+  font-size: xx-large;
+  font-weight: bold;
+  margin: -190px -2px -100px -290px;
+  grid-row-start: 3;
+  grid-column-start: 2;
+  grid-column-start: 2;
+}
+
+.descuento {
+  display: grid;
+  grid-row-start: 3;
+  grid-column-start: 2;
+  grid-column-start: 2;
+  margin: -180px -200px -140px -290px;
+}
+
+button {
+  display: grid;
+  width: 150px;
+  height: 70px;
+  grid-row-start: 3;
+  grid-column-start: 2;
+  grid-column-start: 2;
+  margin: -130px 10px 100px 60px;
+  padding: 10px 10px 30px 40px;
+  border-radius: 1em;
+  background-color: hsl(158, 36%, 37%);
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+  font-size: medium;
+}
+
+svg {
+  display: grid;
+  margin: 13px 10px -15px -15px;
+}
